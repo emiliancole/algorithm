@@ -1,11 +1,17 @@
 <?php
 /**
 The front of a slab of lead (k = 35 W/m·K) is kept at 110◦C and 
-the backiskeptat50◦C.Iftheareaoftheslabis0.4m2 anditis0.03m thick, 
+the back is kept at 50◦C.
+
+If the area of the slab is 0.4m2 and it is 0.03m thick, 
 compute the heat flux, q, and the heat transfer rate, Q.
-Solution. Take dT/dx ≃ (Tback −Tfront)/(xback −xfront) 
-throughout the slab; we verify this in Example 2.2. Thus, eqn. (1.8) becomes
-􏰔50−110􏰕 2 2 q = −35 0.03 = +70,000 W/m = 70 kW/m
+
+Solution:
+
+q = dT/dx ≃ (Tback −Tfront)/(xback −xfront) 
+
+ Thus
+(50−110)/( 2 2 q = −35 0.03 = +70,000 W/m = 70 kW/m
 
 */
 
