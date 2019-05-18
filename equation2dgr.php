@@ -16,11 +16,11 @@ $f=(-$b+sqrt($d))/2*$a;
     {
         
     if($d>0)
-    echo("Le soluzioni sono $e e $f");
+    echo("Le soluzioni sono: $e e $f");
         
         if($d==0)
         
-echo("Le soluzioni è $e ");
+echo("La soluzione è: $e ");
         
         
 if($d<0)
