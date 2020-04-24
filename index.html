@@ -1,7 +1,7 @@
 <h3>github.io/algorithm</h3>
-
+<div id="content"></div>
 <script>
 var fs = require('fs');
 var files = fs.readdirSync('.');
-
+document.getElementById("content").innerHTML = files;
 </script>
